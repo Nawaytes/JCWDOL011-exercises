@@ -11,8 +11,8 @@ for (let i = 1; i <= 10; i++) {
 // Write a code to check whether a string is a palindrome or not.
 console.log("\nWrite a code to check whether a string is a palindrome or not");
 const rightPalindrome = "kasur nababan rusak";
-const wrongPaalidrome = "suka-suka";
-const words = wrongPaalidrome;
+const wrongPalindrome = "suka-suka";
+const words = wrongPalindrome;
 let isPalindrome = true;
 
 for (let i = 0; i < words.length; i++) {
