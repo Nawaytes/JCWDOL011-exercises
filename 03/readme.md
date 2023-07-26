@@ -125,7 +125,8 @@ const result3 = Math.max(numberA, numberB);
 
 console.log(
     `The biggest number between ${numberA} and ${numberB} is ${result3}`
-);```
+);
+```
 
 ## Write a conditional statement to sort three numbers
 ```js
