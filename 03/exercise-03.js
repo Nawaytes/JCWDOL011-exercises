@@ -5,7 +5,7 @@ console.log(
 const NUM_A = 9;
 
 for (let i = 1; i <= 10; i++) {
-    console.log(`${NUM_A} x ${i}`);
+    console.log(`${NUM_A} x ${i} = ${NUM_A * i}`);
 }
 
 // Write a code to check whether a string is a palindrome or not.
@@ -52,10 +52,10 @@ console.log(
 );
 const fullString = "Hello world";
 const searchString = "ell";
-const splitString = fullString.split(searchString)
+const splitString = fullString.split(searchString).join("")
 console.log(`full string: ${fullString}`)
 console.log(`search string: ${searchString}`)
-console.log(`result is: ${splitString[splitString.length - 1]}`);
+console.log(`result is: ${splitString}`);
 
 // Write a code to capitalize the first letter of each word in a string
 console.log("\nWrite a code to capitalize the first letter of each word in a string")
