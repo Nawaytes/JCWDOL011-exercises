@@ -84,7 +84,8 @@ for (let i = 0; i < splitSomeRandomWords.length; i++) {
     resultText += `${dumpLetters} `
 }
 console.log(`input : ${someRandomWords}`)
-console.log(`output: ${resultText}`)```
+console.log(`output: ${resultText}`)
+```
 
 ## Write a code to reverse a string.
 ```js
