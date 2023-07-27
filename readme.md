@@ -12,6 +12,7 @@
 - [Exercise 01](./01)
 - [Exercise 02](./02)
 - [Exercise 03](./03)
+- [Exercise 04](./04)
 
 ## About
 - Galih Setyawan
