@@ -143,8 +143,6 @@ isSame('Result add matrix 0 should be 4', resultAddArray[0], 4)
 
 function addUniqItem(inputArray, newItem) {
     const length = inputArray.length
-
-    // console.log(newItem, inputArray[0])
     for (let index = 0; index < length; index++) {
         if (newItem === inputArray[index]) {
             return inputArray
