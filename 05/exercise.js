@@ -75,9 +75,9 @@ const fruits = ["apple", "banana", "orange", "grape"];
 const fruits2 = ["apple"];
 const fruits3 = ["apple", "grape"];
 
-isSame('Convert array should by "apple, banana, orange and grape"', convertArraytoString(fruits), "apple, banana, orange and grape")
-isSame('Convert array should by "apple"', convertArraytoString(fruits2), "apple")
-isSame('Convert array should by "apple and grape"', convertArraytoString(fruits3), "apple and grape")
+isSame('Convert array should be "apple, banana, orange and grape"', convertArraytoString(fruits), "apple, banana, orange and grape")
+isSame('Convert array should be "apple"', convertArraytoString(fruits2), "apple")
+isSame('Convert array should be "apple and grape"', convertArraytoString(fruits3), "apple and grape")
 
 // Write a function to split a string and convert it into an array of words
 
@@ -134,8 +134,8 @@ const listAddArray2 = [3, 2, 1]
 const resultAddArray = addMatrix(listAddArray1, listAddArray2)
 
 isSame('Result add matrix 0 should be 4', resultAddArray[0], 4)
-isSame('Result add matrix 0 should be 4', resultAddArray[0], 4)
-isSame('Result add matrix 0 should be 4', resultAddArray[0], 4)
+isSame('Result add matrix 1 should be 4', resultAddArray[0], 4)
+isSame('Result add matrix 2 should be 4', resultAddArray[0], 4)
 
 
 // Write a function that adds an element to the end of an array. However, the element should only
