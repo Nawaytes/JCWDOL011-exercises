@@ -33,12 +33,13 @@ class Transaction {
   }
   checkout() {
     const total = this.calcTotal();
-    console.log(`Total belanja anda adalah ${total}`);
+    console.log(`Total belanja anda adalah ${total.toLocaleString("id-ID")}`);
     this.products.forEach((item) => {
       console.log(
         `${item.product.name.padEnd(8, " ")} qty: ${item.qty
+          .toLocaleString("id-ID")
           .toString()
-          .padEnd(2, " ")} @ ${item.product.price}`
+          .padEnd(2, " ")} @ ${item.product.price.toLocaleString("id-ID")}`
       );
     });
   }
