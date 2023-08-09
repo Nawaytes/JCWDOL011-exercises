@@ -1,4 +1,4 @@
-# Readme Exercise day 5
+# Readme Exercise Day 5
 
 ## Exercise 1
 
