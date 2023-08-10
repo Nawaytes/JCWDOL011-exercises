@@ -1,4 +1,4 @@
-function disctincWays(n, output) {
+function disctincWays(n) {
     /*
     n = 2
     outout = 2
@@ -47,5 +47,24 @@ function disctincWays(n, output) {
     13. 2step + 2step + 2step
     */
 
+    return fibonacci(n + 1);
 
 }
+
+function fibonacci(N_FIBONACCY) {
+    let currentResult = 1
+    let lastResult = 0
+    if (N_FIBONACCY === 0) {
+        console.log(`Result fibonaccy at N:${N_FIBONACCY} is ${0}`)
+    } else {
+        for (let i = 0; i < N_FIBONACCY - 1; i++) {
+            const tempLastResult = currentResult
+            currentResult = lastResult + currentResult
+            lastResult = tempLastResult
+        }
+
+        return currentResult
+    }
+}
+
+console.log(`Total kemungkinn = ${disctincWays(5)}`);
