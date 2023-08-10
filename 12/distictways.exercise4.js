@@ -55,7 +55,7 @@ function fibonacci(N_FIBONACCY) {
     let currentResult = 1
     let lastResult = 0
     if (N_FIBONACCY === 0) {
-        console.log(`Result fibonaccy at N:${N_FIBONACCY} is ${0}`)
+        return 0
     } else {
         for (let i = 0; i < N_FIBONACCY - 1; i++) {
             const tempLastResult = currentResult
