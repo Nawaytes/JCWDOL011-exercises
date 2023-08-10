@@ -1,16 +1,28 @@
 const queue = require("./queue");
 
-const q = new queue();
+// Main function to run the program
+async function main() {
+    const q = new queue();
 
-q.enqueue("A");
-q.enqueue("B");
-q.enqueue("C");
-q.enqueue("D");
-q.enqueue("E");
-q.enqueue("F");
-q.enqueue("G");
-q.enqueue("H");
-q.enqueue("I");
-q.enqueue("J");
+    await q.enqueue("A");
+    await q.enqueue("B");
+    await q.enqueue("C");
+    await q.enqueue("D");
+    await q.enqueue("E");
+    await q.enqueue("F");
+    await q.enqueue("G");
+    await q.enqueue("H");
+    await q.enqueue("I");
+    await q.enqueue("J");
 
-q.run();
+    await q.run();
+}
+
+// Run main function and catch any unhandled promise rejections 
+(async () => {
+    try {
+        await main();
+    } catch (error) {
+        console.error(error);
+    }
+})();
