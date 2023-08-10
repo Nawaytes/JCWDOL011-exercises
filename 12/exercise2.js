@@ -16,3 +16,5 @@ function findSingleOne(arr) {
 
 const result = findSingleOne([1, 1, 2, 2, 3, 4, 4, 5, 5])
 console.log(result)
+
+// syarat int > 0
