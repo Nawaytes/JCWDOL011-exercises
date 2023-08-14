@@ -13,3 +13,4 @@ function convertExcelSheetColumnToNumber(column) {
 
 console.log(convertExcelSheetColumnToNumber('AL'));
 console.log(convertExcelSheetColumnToNumber('ABC'));
+console.log(convertExcelSheetColumnToNumber('ZY'));
