@@ -1,0 +1,28 @@
+import express from "express";
+const port = 3000;
+
+const app = express();
+
+app.get("/", (req, res) => {
+  res.send("Hello World!");
+});
+
+app.post("/", (req, res) => {
+  res.send("Got a POST request");
+});
+
+app.put("/", (req, res) => {
+  res.send("Got a PUT request at /user");
+});
+
+app.delete("/", (req, res) => {
+  res.send("Got a DELETE request at /user");
+});
+
+app.patch("/", (req, res) => {
+  res.send("Got a PATCH request at /user");
+});
+
+app.listen(port, () => {
+  console.log(`Example app listening at http://localhost:${port}`);
+});

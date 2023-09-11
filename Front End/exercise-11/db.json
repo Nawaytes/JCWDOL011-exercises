@@ -1,0 +1,76 @@
+{
+  "users": [
+    {
+      "name": "surya lesmana",
+      "email": "alexandro.putra@gmail.com",
+      "password": "s2s2s2s2s2",
+      "id": 1
+    },
+    {
+      "name": "galih",
+      "email": "scriptgalih@gmail.com",
+      "password": "y7y7y7y7y7",
+      "id": 2
+    },
+    {
+      "name": "1",
+      "email": "alexandro.putra@gmail.com",
+      "password": "2d2d2d2d22",
+      "id": 3
+    },
+    {
+      "name": "123",
+      "email": "scriptgalih@gmail.com",
+      "password": "d2d2d2d2d2d2",
+      "id": 4
+    },
+    {
+      "name": "123123123",
+      "email": "alexandro.putra@gmail.com",
+      "password": "2d2d2d2d2d2",
+      "id": 5
+    },
+    {
+      "name": "123123123",
+      "email": "alexandro.putra@gmail.com",
+      "password": "2d2d2d2d2d2",
+      "id": 6
+    },
+    {
+      "name": "2",
+      "email": "alexandro.putra@gmail.com",
+      "password": "33323232323",
+      "id": 7
+    },
+    {
+      "name": "2",
+      "email": "alexandro.putra@gmail.com",
+      "password": "33323232323",
+      "id": 8
+    },
+    {
+      "name": "2",
+      "email": "alexandro.putra@gmail.com",
+      "password": "33323232323",
+      "id": 9
+    },
+    {
+      "name": "2342423",
+      "email": "alexandro.putra@gmail.com",
+      "password": "d3d33d3d3d3",
+      "id": 10
+    },
+    {
+      "name": "123123",
+      "email": "alexandro.putra@gmail.com",
+      "password": "123123123213",
+      "id": 11
+    },
+    {
+      "name": "Galih Setyawan",
+      "email": "alexandro.putra@gmail.com",
+      "password": "2d2d2d2d2d2d2",
+      "id": 15
+    }
+  ]
+}
