@@ -1,0 +1,95 @@
+{
+  "expenses": [
+    {
+      "title": "Susu Indomilk",
+      "amount": "9000",
+      "date": "2023-09-13",
+      "category": "drink",
+      "id": 1
+    },
+    {
+      "title": "Bread",
+      "amount": "9000",
+      "date": "2023-09-11",
+      "category": "food",
+      "id": 2
+    },
+    {
+      "title": "Indomie",
+      "amount": "5000",
+      "date": "2023-09-09",
+      "category": "food",
+      "id": 3
+    },
+    {
+      "title": "Masako",
+      "amount": "2000",
+      "date": "2023-09-08",
+      "category": "food",
+      "id": 4
+    },
+    {
+      "title": "Susu Ultra",
+      "amount": "26500",
+      "date": "2023-09-07",
+      "category": "drink",
+      "id": 5
+    },
+    {
+      "title": "Sepeda Polygon Strator s7",
+      "amount": "13500900",
+      "date": "2023-09-06",
+      "category": "sport",
+      "id": 6
+    },
+    {
+      "title": "Samsung Galaxy s23",
+      "amount": "17500900",
+      "date": "2023-09-05",
+      "category": "phone",
+      "id": 7
+    },
+    {
+      "title": "Macbook Pro M1",
+      "amount": "23499000",
+      "date": "2023-09-05",
+      "category": "laptop",
+      "id": 8
+    },
+    {
+      "title": "Macbook Pro M1",
+      "amount": "23499000",
+      "date": "2023-09-05",
+      "category": "laptop",
+      "id": 9
+    },
+    {
+      "title": "Macbook Pro M1",
+      "amount": "23499000",
+      "date": "2023-09-05",
+      "category": "laptop",
+      "id": 10
+    },
+    {
+      "title": "Macbook Pro M1",
+      "amount": "23499000",
+      "date": "2023-09-05",
+      "category": "laptop",
+      "id": 11
+    },
+    {
+      "title": "Macbook Pro M1",
+      "amount": "23499000",
+      "date": "2023-09-05",
+      "category": "laptop",
+      "id": 12
+    },
+    {
+      "title": "Macbook Pro M1",
+      "amount": "23499000",
+      "date": "2023-09-05",
+      "category": "laptop",
+      "id": 13
+    }
+  ]
+}
